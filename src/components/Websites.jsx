@@ -26,7 +26,7 @@ function Websites() {
           <p><strong>Le Ficus</strong></p>
           <img src="https://image.flaticon.com/icons/png/512/48/48442.png" alt="Fork, spoon and knife icon." />
           <p>Le Ficus was a project I built for fun with a friend.  Le Ficus is a make-believe restaraunt. The site is built using Typescript and Angular to practice with layouts.</p>
-          <a target="_blank" href="https://space-6aa0d.firebaseapp.com/">https://space-6aa0d.firebaseapp.com/</a>
+          <a target="_blank" href="https://ficus-f19bc.firebaseapp.com/">https://ficus-f19bc.firebaseapp.com/</a>
         </li>
       </ul>
     </div>

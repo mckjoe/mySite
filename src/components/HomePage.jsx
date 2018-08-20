@@ -6,7 +6,7 @@ import HomepageText from './HomepageText';
 function HomePage() {
 
   return(
-    <div>
+    <div className="homePage">
       <ImageSlider />
       <HomepageText />
     </div>
