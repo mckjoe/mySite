@@ -6,9 +6,9 @@ import arts3 from './../assets/images/arts3.jpg';
 function ArtFun(){
   return(
     <div className="gallery-photo">
-      <img className="portrait-format" src={arts1} alt="Artsy" />
-      <img className="portrait-format" src={arts2} alt="Artsy" />
-      <img className="portrait-format" src={arts3} alt="Artsy" />
+      <img className="portrait-format" src={arts1} alt="Artsy work." />
+      <img className="portrait-format" src={arts2} alt="Artsy work." />
+      <img className="portrait-format" src={arts3} alt="Artsy work." />
     </div>
   );
 }
