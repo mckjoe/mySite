@@ -73,7 +73,7 @@
 }
 
   img {
-    width: 20%;
+    max-width: 400px;
     float: left;
   }
 
@@ -137,20 +137,21 @@ a {
 }
 
 .gallery-photo {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   margin: 0 auto;
   width: 80%;
 }
 
 .gallery-photo img {
   width: 100%;
-  margin: 10px;
+  margin: 10px auto;
+  max-width: 500px;
 }
 
 img.portrait-format {
   width: 80%;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .websites {
@@ -197,6 +198,17 @@ img.portrait-format {
   margin: 0 auto;
 }
 
+.fader {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto 25px auto;
+}
+.fader .each-fade img {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
 .people {
   display: flex;
   flex-direction: column;
@@ -207,6 +219,12 @@ img.portrait-format {
   width: 80%;
   max-width: 600px;
   margin: 10px auto;
+}
+
+
+@keyframes fader {
+  from { opacity: 1.0; }
+  to   { opacity: 0.0; }
 }
 
 @keyframes slidy {
@@ -234,6 +252,9 @@ img.portrait-format {
   }
   .mobile-navbar-button {
     display: none;
+  }
+  .gallery-photo {
+    grid-template-columns: 1fr 1fr;
   }
 }
 

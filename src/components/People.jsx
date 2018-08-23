@@ -10,11 +10,13 @@ function People(){
     <div className="people-images-body">
       <div className="people">
         <p>Oliver and Jess</p>
-        <img src={weddingkids} alt="Mooyman wedding." />
-        <img src={weddingkids2} alt="Mooyman wedding." />
-        <img src={weddingkids3} alt="Mooyman wedding." />
-        <img src={weddingkids4} alt="Mooyman wedding." />
-        <img src={weddingkids5} alt="Mooyman wedding." />
+        <div className="gallery-photo">
+          <img src={weddingkids} alt="Mooyman wedding." />
+          <img src={weddingkids2} alt="Mooyman wedding." />
+          <img src={weddingkids3} alt="Mooyman wedding." />
+          <img src={weddingkids4} alt="Mooyman wedding." />
+          <img src={weddingkids5} alt="Mooyman wedding." />
+        </div>
       </div>
     </div>
 
