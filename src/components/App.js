@@ -9,6 +9,7 @@ import People from './People';
 import Landscapes from './Landscapes';
 import Cityscapes from './Cityscapes';
 import ArtFun from './ArtFun';
+import Error404 from './Error404';
 import Footer from './Footer';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
           <Route path='/landscapes' component={Landscapes} />
           <Route path='/cityscapes' component={Cityscapes} />
           <Route path='/artsfuns' component={ArtFun} />
+          <Route component={Error404} />
         </Switch>
         <Footer />
       </div>
