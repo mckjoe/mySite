@@ -2,14 +2,20 @@ import React from 'react';
 import nature1 from './../assets/images/nature1.jpg';
 import nature2 from './../assets/images/nature2.jpg';
 import nature3 from './../assets/images/nature3.jpg';
+import ImageList from './ImageList';
+import PropTypes from 'prop-types';
 
-function Landscapes(){
+function Landscapes(props){
+console.log(props.landscapeImages);
   return(
-    <div className="gallery-photo">
-      <img className="portrait-format" src={nature1} alt="landscape" />
-      <img src={nature2} alt="landscape" />
-      <img src={nature3} alt="landscape" />
+    <div>
+      <ImageList imageList={props.Images}/>
     </div>
   );
 }
+
+Landscapes.propTypes = {
+  landscapeImages: PropTypes.array
+}
+
 export default Landscapes;

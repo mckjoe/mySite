@@ -1,10 +1,11 @@
 import React from 'react';
-import city1 from './../assets/images/city1.jpg';
+import ImageList from './ImageList';
 
-function Cityscapes(){
+function Cityscapes(props){
   return(
-    <div className="gallery-photo">
-      <img className="portrait-format" src={city1} alt="Portland cityscape" />
+    <div>
+      <ImageList
+        imageList={props.Images}/>
     </div>
   );
 }
