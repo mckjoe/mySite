@@ -30,32 +30,32 @@ const SlideShow = () => {
       <Fade {...fadeProperties}>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[0]} />
+            <img className="fading-image" src={fadeImages[0]} />
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[1]} />
+            <img className="fading-image" src={fadeImages[1]} />
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[2]} />
+            <img className="fading-image" src={fadeImages[2]} />
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[3]} />
+            <img className="fading-image" src={fadeImages[3]} />
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[4]} />
+            <img className="fading-image" src={fadeImages[4]} />
           </div>
         </div>
         <div className="each-fade">
           <div className="image-container">
-            <img src={fadeImages[5]} />
+            <img className="fading-image" src={fadeImages[5]} />
           </div>
         </div>
       </Fade>

@@ -57,26 +57,6 @@
   top: 34px;
 }
 
-.text-align-center {
-  text-align: center;
-}
-
- .homePage {
-   width: 60%;
-   margin: 0 auto;
- }
-
- .HomepageText {
-   width: 100%;
- }
-
- .HomepageText p {
-   margin: 0 auto;
-   font-size: 12px;
-   font-family: sans-serif;
-   width: 100%;
- }
-
 .footer {
   display: flex;
   font-size: 12px;
@@ -84,10 +64,34 @@
   padding: 15px;
 }
 
+.text-align-center {
+  text-align: center;
+}
+
+ .homePage {
+   width: 80%;
+   max-width: 600px;
+   margin: 0 auto;
+ }
+
+ .HomepageText {
+  /* display: inline-block; */
+  margin: 0 auto;
+ }
+
+ .HomepageText p {
+   width: 90%;
+   margin: 0 auto;
+   font-size: 12px;
+   font-family: sans-serif;
+ }
+
+
 a {
   color: white;
 }
 
+/* IMAGE GALLERIES */
 .gallery-thumbs {
   display: flex;
   flex-direction: column;
@@ -133,6 +137,7 @@ img.portrait-format {
   margin: 5px auto;
 }
 
+/* WEBSITE GALLERY COMPONENT */
 .websites {
   display: grid;
   grid-template-columns: 1fr;
@@ -173,17 +178,25 @@ img.portrait-format {
   color: black;
 }
 
+/* HOMEPAGE SLIDESHOW COMPONENT */
 .fader {
-  width: 100%;
+  /* width: 100%; */
   max-width: 500px;
-  margin: 10px auto 25px auto;
+  margin: 0 auto 15px auto;
 }
 .fader .each-fade img {
   width: 100%;
   max-width: 500px;
-  margin-bottom: 10px;
+  margin: 15px auto;
+}
+div.image-container {
+  width: 100%;
+}
+img.fading-image {
+  width: 100%;
 }
 
+/* MEDIA QUERIES */
 @media screen and (min-width: 660px) {
   .gallery-options {
     grid-template-columns: 1fr 1fr;
