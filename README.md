@@ -1,3 +1,9 @@
+## My Site
+
+### To view this site please visit http://josephmckinneyphotographyv2.herokuapp.com
+
+## This website is still being developed and is not complete.  Feel free however to look and see where I am going, and to click on the links to the websites I have built if you want to also check them out. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
